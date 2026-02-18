@@ -44,6 +44,7 @@ class AgentMetrics:
         model: 使用モデル名
         empty_response: 最終応答が空だったか
     """
+
     turns: int = 0
     tool_calls: int = 0
     nudge_fired: bool = False

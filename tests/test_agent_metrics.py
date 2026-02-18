@@ -11,15 +11,14 @@
   - エラー耐性
 """
 
-import pytest
 from dataclasses import asdict
 
 from llm_agent_quality import (
-    AgentMetrics,
     MAX_TOOLS_PER_REQUEST,
-    MAX_TURNS_TO_FIRST_TOOL,
     MAX_TOTAL_TURNS,
+    MAX_TURNS_TO_FIRST_TOOL,
     NUDGE_RATE_THRESHOLD,
+    AgentMetrics,
 )
 
 
